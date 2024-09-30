@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://thefirstmile--emails.sandbox.my.salesforce-sites.com/driversform/lightning/lightning.out.js"></script>
+<script src="https://thefirstmile--full.sandbox.my.salesforce-sites.com/drivercollectionsubmission/lightning/lightning.out.js"></script>
 <div id="lightningLocator"></div>
 <script>
     $Lightning.use("c:WebFormApp",
         function() {
             $Lightning.createComponent(
                 "c:WebForm",
-                { flowName: "RoundDetails"},                  
+                { flowName: "DriversForm"},                  
                 "lightningLocator",   
                 function(cmp) {}
             );
         },
-        'https://thefirstmile--emails.sandbox.my.salesforce-sites.com/driversform'  //Site endpoint
+        'https://thefirstmile--full.sandbox.my.salesforce-sites.com/drivercollectionsubmission'  //Site endpoint
     );
 </script>
 </html>
